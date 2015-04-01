@@ -1,4 +1,4 @@
-#Git Config
+#GitConfig
 Description: Backup Git Configuration
 
 Author: Zhong Chong
