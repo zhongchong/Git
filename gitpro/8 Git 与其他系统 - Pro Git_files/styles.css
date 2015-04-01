@@ -1,0 +1,432 @@
+body {
+	background: rgb(255, 255, 255); margin: 0px auto; padding: 20px; width: 940px; color: rgb(78, 68, 60); line-height: 1.6; font-family: Helvetica, "microsoft yahei", Arial, sans-serif; font-size: 14px;
+}
+body *:first-child {
+	margin-top: 0px !important;
+}
+body *:last-child {
+	margin-bottom: 0px !important;
+}
+a {
+	color: rgb(65, 131, 196); text-decoration: none;
+}
+a.absent {
+	color: rgb(204, 0, 0);
+}
+a.anchor {
+	left: 0px; top: 0px; bottom: 0px; padding-left: 30px; margin-left: -30px; display: block; position: absolute; cursor: pointer;
+}
+h1 {
+	margin: 20px 0px 10px; padding: 0px; font-weight: bold; position: relative; cursor: text; -webkit-font-smoothing: antialiased;
+}
+h2 {
+	margin: 20px 0px 10px; padding: 0px; font-weight: bold; position: relative; cursor: text; -webkit-font-smoothing: antialiased;
+}
+h3 {
+	margin: 20px 0px 10px; padding: 0px; font-weight: bold; position: relative; cursor: text; -webkit-font-smoothing: antialiased;
+}
+h4 {
+	margin: 20px 0px 10px; padding: 0px; font-weight: bold; position: relative; cursor: text; -webkit-font-smoothing: antialiased;
+}
+h5 {
+	margin: 20px 0px 10px; padding: 0px; font-weight: bold; position: relative; cursor: text; -webkit-font-smoothing: antialiased;
+}
+h6 {
+	margin: 20px 0px 10px; padding: 0px; font-weight: bold; position: relative; cursor: text; -webkit-font-smoothing: antialiased;
+}
+h2:first-child {
+	padding-top: 0px; margin-top: 0px;
+}
+h1:first-child {
+	padding-top: 0px; margin-top: 0px;
+}
+h1:first-child + h2 {
+	padding-top: 0px; margin-top: 0px;
+}
+h3:first-child {
+	padding-top: 0px; margin-top: 0px;
+}
+h4:first-child {
+	padding-top: 0px; margin-top: 0px;
+}
+h5:first-child {
+	padding-top: 0px; margin-top: 0px;
+}
+h6:first-child {
+	padding-top: 0px; margin-top: 0px;
+}
+h1:hover a.anchor {
+	text-decoration: none;
+}
+h2:hover a.anchor {
+	text-decoration: none;
+}
+h3:hover a.anchor {
+	text-decoration: none;
+}
+h4:hover a.anchor {
+	text-decoration: none;
+}
+h5:hover a.anchor {
+	text-decoration: none;
+}
+h6:hover a.anchor {
+	text-decoration: none;
+}
+h1 tt {
+	font-size: inherit;
+}
+h1 code {
+	font-size: inherit;
+}
+h2 tt {
+	font-size: inherit;
+}
+h2 code {
+	font-size: inherit;
+}
+h3 tt {
+	font-size: inherit;
+}
+h3 code {
+	font-size: inherit;
+}
+h4 tt {
+	font-size: inherit;
+}
+h4 code {
+	font-size: inherit;
+}
+h5 tt {
+	font-size: inherit;
+}
+h5 code {
+	font-size: inherit;
+}
+h6 tt {
+	font-size: inherit;
+}
+h6 code {
+	font-size: inherit;
+}
+h1 {
+	color: black; font-size: 28px;
+}
+h2 {
+	color: black; font-size: 24px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+h3 {
+	font-size: 18px;
+}
+h4 {
+	font-size: 16px;
+}
+h5 {
+	font-size: 14px;
+}
+h6 {
+	color: rgb(119, 119, 119); font-size: 14px;
+}
+p {
+	margin: 15px 0px;
+}
+blockquote {
+	margin: 15px 0px;
+}
+ul {
+	margin: 15px 0px;
+}
+ol {
+	margin: 15px 0px;
+}
+dl {
+	margin: 15px 0px;
+}
+li {
+	margin: 15px 0px;
+}
+table {
+	margin: 15px 0px;
+}
+pre {
+	margin: 15px 0px;
+}
+hr {
+	background: url("/assets/md-hr.png") repeat-x 0px 0px; padding: 0px; border: 0px currentColor; height: 4px; color: rgb(204, 204, 204);
+}
+h2:first-child {
+	padding-top: 0px; margin-top: 0px;
+}
+h1:first-child {
+	padding-top: 0px; margin-top: 0px;
+}
+h1:first-child + h2 {
+	padding-top: 0px; margin-top: 0px;
+}
+h3:first-child {
+	padding-top: 0px; margin-top: 0px;
+}
+h4:first-child {
+	padding-top: 0px; margin-top: 0px;
+}
+h5:first-child {
+	padding-top: 0px; margin-top: 0px;
+}
+h6:first-child {
+	padding-top: 0px; margin-top: 0px;
+}
+a:first-child h1 {
+	padding-top: 0px; margin-top: 0px;
+}
+a:first-child h2 {
+	padding-top: 0px; margin-top: 0px;
+}
+a:first-child h3 {
+	padding-top: 0px; margin-top: 0px;
+}
+a:first-child h4 {
+	padding-top: 0px; margin-top: 0px;
+}
+a:first-child h5 {
+	padding-top: 0px; margin-top: 0px;
+}
+a:first-child h6 {
+	padding-top: 0px; margin-top: 0px;
+}
+h1 p {
+	margin-top: 0px;
+}
+h2 p {
+	margin-top: 0px;
+}
+h3 p {
+	margin-top: 0px;
+}
+h4 p {
+	margin-top: 0px;
+}
+h5 p {
+	margin-top: 0px;
+}
+h6 p {
+	margin-top: 0px;
+}
+li p.first {
+	display: inline-block;
+}
+ul {
+	padding-left: 30px;
+}
+ol {
+	padding-left: 30px;
+}
+ul :first-child {
+	margin-top: 0px;
+}
+ol :first-child {
+	margin-top: 0px;
+}
+ul :last-child {
+	margin-bottom: 0px;
+}
+ol :last-child {
+	margin-bottom: 0px;
+}
+dl {
+	padding: 0px;
+}
+dl dt {
+	margin: 15px 0px 5px; padding: 0px; font-size: 14px; font-style: italic; font-weight: bold;
+}
+dl dt:first-child {
+	padding: 0px;
+}
+dl dt > :first-child {
+	margin-top: 0px;
+}
+dl dt > :last-child {
+	margin-bottom: 0px;
+}
+dl dd {
+	margin: 0px 0px 15px; padding: 0px 15px;
+}
+dl dd > :first-child {
+	margin-top: 0px;
+}
+dl dd > :last-child {
+	margin-bottom: 0px;
+}
+blockquote {
+	padding: 0px 15px; color: rgb(119, 119, 119); border-left-color: rgb(221, 221, 221); border-left-width: 4px; border-left-style: solid;
+}
+blockquote > :first-child {
+	margin-top: 0px;
+}
+blockquote > :last-child {
+	margin-bottom: 0px;
+}
+table {
+	padding: 0px; width: auto;
+}
+table tr {
+	margin: 0px; padding: 0px; border-top-color: rgb(221, 221, 221); border-top-width: 1px; border-top-style: solid; background-color: white;
+}
+table tr:nth-child(2n+1) {
+	background-color: rgb(248, 248, 248);
+}
+table tr th {
+	margin: 0px; padding: 6px 13px; border: 1px solid rgb(221, 221, 221); text-align: left; font-weight: bold;
+}
+table tr td {
+	margin: 0px; padding: 6px 13px; border: 1px solid rgb(221, 221, 221); text-align: left;
+}
+table tr th :first-child {
+	margin-top: 0px;
+}
+table tr td :first-child {
+	margin-top: 0px;
+}
+table tr th :last-child {
+	margin-bottom: 0px;
+}
+table tr td :last-child {
+	margin-bottom: 0px;
+}
+img {
+	max-width: 100%;
+}
+span.frame {
+	overflow: hidden; display: block;
+}
+span.frame > span {
+	margin: 13px 0px 0px; padding: 7px; border: 1px solid rgb(221, 221, 221); width: auto; overflow: hidden; float: left; display: block;
+}
+span.frame span img {
+	float: left; display: block;
+}
+span.frame span span {
+	padding: 5px 0px 0px; color: rgb(51, 51, 51); clear: both; display: block;
+}
+span.align-center {
+	overflow: hidden; clear: both; display: block;
+}
+span.align-center > span {
+	margin: 13px auto 0px; text-align: center; overflow: hidden; display: block;
+}
+span.align-center span img {
+	margin: 0px auto; text-align: center;
+}
+span.align-right {
+	overflow: hidden; clear: both; display: block;
+}
+span.align-right > span {
+	margin: 13px 0px 0px; text-align: right; overflow: hidden; display: block;
+}
+span.align-right span img {
+	margin: 0px; text-align: right;
+}
+span.float-left {
+	overflow: hidden; margin-right: 13px; float: left; display: block;
+}
+span.float-left span {
+	margin: 13px 0px 0px;
+}
+span.float-right {
+	overflow: hidden; margin-left: 13px; float: right; display: block;
+}
+span.float-right > span {
+	margin: 13px auto 0px; text-align: right; overflow: hidden; display: block;
+}
+code {
+	margin: 0px 2px; padding: 0px 5px; border-radius: 3px; border: 1px solid rgb(234, 234, 234); white-space: nowrap; background-color: rgb(248, 248, 248);
+}
+tt {
+	margin: 0px 2px; padding: 0px 5px; border-radius: 3px; border: 1px solid rgb(234, 234, 234); white-space: nowrap; background-color: rgb(248, 248, 248);
+}
+pre code {
+	margin: 0px; padding: 0px; border: currentColor; white-space: pre;
+}
+.highlight pre {
+	padding: 6px 10px; border-radius: 4px; border: 1px solid rgb(204, 204, 204); line-height: 19px; overflow: auto; font-size: 13px; background-color: rgb(248, 248, 248);
+}
+pre {
+	padding: 6px 10px; border-radius: 4px; border: 1px solid rgb(204, 204, 204); line-height: 19px; overflow: auto; font-size: 13px; background-color: rgb(248, 248, 248);
+}
+pre code {
+	border: currentColor; background-color: transparent;
+}
+pre tt {
+	border: currentColor; background-color: transparent;
+}
+ol.book_toc {
+	background: rgb(241, 241, 241); list-style: none; margin: 30px 36px;
+}
+ol.book-toc h2 {
+	color: rgb(78, 68, 60);
+}
+.chapter {
+	margin-bottom: 0.6em;
+}
+ol.chapter_toc {
+	background: rgb(238, 238, 238); list-style: none; padding: 5px 30px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px; -ms-border-radius: 3px; -khtml-border-radius: 3px;
+}
+ol.chapter_toc li {
+	margin: 5px 0px;
+}
+ol.book_toc ol.chapter_toc {
+	margin: 0px;
+}
+.chapter h2 {
+	border: currentColor; margin-bottom: 0px;
+}
+.chapter h2 a {
+	font-weight: bold;
+}
+#book-chapters {
+	padding: 8px 12px 6px; border-radius: 3px; text-align: center; font-size: 13px; font-weight: bold; margin-bottom: 10px; position: relative; background-color: rgba(223, 221, 213, 0.33); -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px; -ms-border-radius: 3px;
+}
+#book-chapters a {
+	font-size: 13px;
+}
+#book-chapters .chapter_toc a {
+	font-weight: normal;
+}
+#book-chapters ol {
+	list-style: none; padding-left: 10px;
+}
+#book-chapters #chapters-dropdown {
+	padding: 12px; top: 30px; text-align: left;
+}
+#book-chapters #chapters-dropdown ol.chapter_toc {
+	background: rgb(255, 255, 255); margin: 0px; padding: 0px 0px 0px 20px;
+}
+#book-chapters .dropdown-panel .three-column .column-left {
+	width: 30%; padding-right: 3%; float: left;
+}
+#book-chapters .dropdown-panel .three-column .column-middle {
+	width: 30%; padding-right: 3%; float: left;
+}
+#book-chapters .dropdown-panel .three-column .column-right {
+	width: 30%; padding-right: 3%; float: left;
+}
+.dropdown-panel {
+	border-radius: 3px; border: 1px solid rgb(198, 196, 184); display: none; position: absolute; z-index: 199; box-shadow: 0px 1px 2px #ccc; background-color: rgb(255, 255, 255); -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px; -ms-border-radius: 3px; -webkit-box-shadow: 0 1px 2px #ccc; -moz-box-shadow: 0 1px 2px #ccc;
+}
+#book-chapters a.dropdown-trigger {
+	padding: 1px; float: left;
+}
+#book-chapters a.right-home {
+	float: right;
+}
+#book-chapters a.active {
+	border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(198, 196, 184) rgb(198, 196, 184) currentColor; position: relative; z-index: 200; border-top-left-radius: 3px; border-top-right-radius: 3px; background-color: rgb(255, 255, 255) !important; -moz-border-radius-topleft: 3px; -webkit-border-top-left-radius: 3px; -ms-border-top-left-radius: 3px; -o-border-top-left-radius: 3px; -moz-border-radius-topright: 3px; -webkit-border-top-right-radius: 3px; -ms-border-top-right-radius: 3px; -o-border-top-right-radius: 3px;
+}
+.bottom-nav {
+	padding: 8px 12px 6px; border-radius: 3px; text-align: center; font-size: 13px; font-weight: bold; margin-bottom: 10px; background-color: rgba(223, 221, 213, 0.33); -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px; -ms-border-radius: 3px;
+}
+.bottom-nav .next {
+	float: right;
+}
+.bottom-nav .prev {
+	float: left;
+}

@@ -1,0 +1,204 @@
+pre .str {
+	color: rgb(254, 194, 67);
+}
+code .str {
+	color: rgb(254, 194, 67);
+}
+pre .kwd {
+	color: rgb(132, 112, 255);
+}
+code .kwd {
+	color: rgb(132, 112, 255);
+}
+pre .com {
+	color: rgb(50, 205, 50); font-style: italic;
+}
+code .com {
+	color: rgb(50, 205, 50); font-style: italic;
+}
+pre .typ {
+	color: rgb(110, 203, 204);
+}
+code .typ {
+	color: rgb(110, 203, 204);
+}
+pre .lit {
+	color: rgb(221, 0, 102);
+}
+code .lit {
+	color: rgb(221, 0, 102);
+}
+pre .pun {
+	color: rgb(139, 137, 112);
+}
+code .pun {
+	color: rgb(139, 137, 112);
+}
+pre .pln {
+	color: rgb(240, 240, 240);
+}
+code .pln {
+	color: rgb(240, 240, 240);
+}
+pre .tag {
+	color: rgb(156, 156, 255);
+}
+code .tag {
+	color: rgb(156, 156, 255);
+}
+pre .htm {
+	color: rgb(221, 160, 221);
+}
+code .htm {
+	color: rgb(221, 160, 221);
+}
+pre .xsl {
+	color: rgb(208, 160, 208);
+}
+code .xsl {
+	color: rgb(208, 160, 208);
+}
+pre .atn {
+	color: rgb(70, 238, 238); font-weight: normal;
+}
+code .atn {
+	color: rgb(70, 238, 238); font-weight: normal;
+}
+pre .atv {
+	color: rgb(238, 180, 180);
+}
+code .atv {
+	color: rgb(238, 180, 180);
+}
+pre .dec {
+	color: rgb(51, 135, 204);
+}
+code .dec {
+	color: rgb(51, 135, 204);
+}
+a {
+	text-decoration: none;
+}
+pre.prettyprint {
+	border-radius: 8px; font-family: "Droid Sans Mono","CPMono_v07 Bold","Droid Sans"; font-size: 9pt; font-weight: bold; background-color: rgb(15, 15, 15); -moz-border-radius: 8px; -webkit-border-radius: 8px; -o-border-radius: 8px; -ms-border-radius: 8px; -khtml-border-radius: 8px;
+}
+code.prettyprint {
+	border-radius: 8px; font-family: "Droid Sans Mono","CPMono_v07 Bold","Droid Sans"; font-size: 9pt; font-weight: bold; background-color: rgb(15, 15, 15); -moz-border-radius: 8px; -webkit-border-radius: 8px; -o-border-radius: 8px; -ms-border-radius: 8px; -khtml-border-radius: 8px;
+}
+pre.prettyprint {
+	margin: 1em auto; padding: 1em; width: 95%; white-space: pre-wrap;
+}
+pre.prettyprint a {
+	text-decoration: none;
+}
+code.prettyprint a {
+	text-decoration: none;
+}
+ol.linenums {
+	color: rgb(139, 137, 112); margin-top: 0px; margin-bottom: 0px;
+}
+li.L0 {
+	list-style-type: none;
+}
+li.L1 {
+	list-style-type: none;
+}
+li.L2 {
+	list-style-type: none;
+}
+li.L3 {
+	list-style-type: none;
+}
+li.L5 {
+	list-style-type: none;
+}
+li.L6 {
+	list-style-type: none;
+}
+li.L7 {
+	list-style-type: none;
+}
+li.L8 {
+	list-style-type: none;
+}
+@media print
+{
+pre.prettyprint {
+	background-color: rgb(255, 255, 255);
+}
+code.prettyprint {
+	background-color: rgb(255, 255, 255);
+}
+pre .str {
+	color: rgb(0, 136, 136);
+}
+code .str {
+	color: rgb(0, 136, 136);
+}
+pre .kwd {
+	color: rgb(0, 0, 102); font-weight: bold;
+}
+code .kwd {
+	color: rgb(0, 0, 102); font-weight: bold;
+}
+pre .com {
+	font-style: italic;
+}
+code .com {
+	font-style: italic;
+}
+pre .typ {
+	color: rgb(68, 0, 68); font-weight: bold;
+}
+code .typ {
+	color: rgb(68, 0, 68); font-weight: bold;
+}
+pre .lit {
+	color: rgb(0, 68, 68);
+}
+code .lit {
+	color: rgb(0, 68, 68);
+}
+pre .pun {
+	color: rgb(68, 68, 0);
+}
+code .pun {
+	color: rgb(68, 68, 0);
+}
+pre .pln {
+	color: rgb(0, 0, 0);
+}
+code .pln {
+	color: rgb(0, 0, 0);
+}
+pre .tag {
+	color: rgb(182, 111, 247); font-weight: bold;
+}
+code .tag {
+	color: rgb(182, 111, 247); font-weight: bold;
+}
+pre .htm {
+	color: rgb(102, 0, 102); font-weight: bold;
+}
+code .htm {
+	color: rgb(102, 0, 102); font-weight: bold;
+}
+pre .xsl {
+	color: rgb(102, 0, 102); font-weight: bold;
+}
+code .xsl {
+	color: rgb(102, 0, 102); font-weight: bold;
+}
+pre .atn {
+	color: rgb(199, 21, 133); font-weight: normal;
+}
+code .atn {
+	color: rgb(199, 21, 133); font-weight: normal;
+}
+pre .atv {
+	color: rgb(0, 136, 136); font-weight: normal;
+}
+code .atv {
+	color: rgb(0, 136, 136); font-weight: normal;
+}
+}
