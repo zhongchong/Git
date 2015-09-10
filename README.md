@@ -1,7 +1,7 @@
-#GitConfig
+#Git
 Description: Backup Git Configuration
 
 Author: Zhong Chong
 
-Date: 2015-04-01
+Date: 2015-09-10
 
