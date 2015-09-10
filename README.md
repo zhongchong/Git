@@ -1,5 +1,5 @@
 #Git
-Description: Backup Git Configuration
+Description:Git Configuration Backup
 
 Author: Zhong Chong
 
