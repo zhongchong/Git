@@ -3,7 +3,7 @@
 # 配置全局信息
 git config --global user.name "zhongchong"
 git config --global user.email 41172680@qq.com
-git config --global core.editor vim
+git config --global core.editor nano
 
 # 生成密钥
 ssh-keygen -t rsa -C "z_chong@126.com"
